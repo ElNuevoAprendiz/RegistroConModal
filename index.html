@@ -13,10 +13,10 @@
 
     <div class="container">
         <h3>Pantalla de fondo</h3>
-        <p>Haz click para ingresar</p>
+        <p>Haz click para registrarse</p>
 
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
-            Ingresar
+            Registrate
         </button>
     </div>
 
@@ -28,20 +28,32 @@
                     <div class="d-flex justify-content-center">
                         <img src="img/login-icon.svg" alt="login-icon" style="height: 7rem" />
                     </div>
-                    <div class="text-center fs-1 fw-bold">Ingreso</div>
+                    <div class="text-center fs-1 fw-bold">Registro</div>
                     <div class="input-group mt-4">
                         <div class="input-group-text bg-info">
                             <img src="img/username-icon.svg" alt="Icono Nombre de usuario" style="height: 1rem" />
                         </div>
-                        <input class="form-control bg-light" type="text" placeholder="Nombre de usuario" />
+                        <input class="form-control bg-light" type="text" id="nu" name="nu" placeholder="Elija un Nombre de usuario" />
                     </div>
                     <div class="input-group mt-1">
                         <div class="input-group-text bg-info">
                             <img src="img/password-icon.svg" alt="icono de password" style="height: 1rem" />
                         </div>
-                        <input class="form-control bg-light" type="password" placeholder="Password" />
+                        <input class="form-control bg-light" type="password" id="psw" name="psw" placeholder="Ingrese un Password" />
                     </div>
-                    <button type="submit" class="btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm">Continuar</button>
+                    <div class="input-group mt-1">
+                        <div class="input-group-text bg-info">
+                            <img src="img/password-icon.svg" alt="icono de password" style="height: 1rem" />
+                        </div>
+                        <input class="form-control bg-light" type="password" id="psw2" name="psw2" placeholder="Ingrese nuevamente el Password" />
+                    </div>
+                    <div class="input-group mt-1">
+                        <div class="input-group-text bg-info">
+                            <img src="img/mensaje.png" alt="icono de email" style="height: 1rem" />
+                        </div>
+                        <input class="form-control bg-light" type="text" id="email" name="email" placeholder="Escriba su email" />
+                    </div>
+                    <button type="submit" class="btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm">Registrarse</button>
                     
 
                 </form>
